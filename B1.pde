@@ -1,0 +1,3 @@
+class BOne extends SuperButton {
+
+}
