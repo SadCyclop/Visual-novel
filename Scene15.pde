@@ -1,32 +1,34 @@
-
-
-public class Scene4 {
+public class Scene15 {
 
   ArrayList <SuperButton> buttonListe = new ArrayList <SuperButton> ();
 
-  Scene4() {
+  Scene15() {
    
   }
   void Display() {
-     background(250);
+    background(250);
 
     fill(0, 0, 0);
     
-    Mount.resize(1920,1080);
-    image(Mount, 0, 0);
-        image(bandit, 600, 50);
+    Forest.resize(1920,1080);
+    image(Forest, 0, 0);
+        chest.resize(500,393);
+    image(chest, 650, 600);
     image(SK, 65, 0); 
     image(ASH, 1000, 0);
     rect(0, 800, 1919, 1080);
     textSize(25);
     fill (255);
    
-    text ("Kairon: Oh no, enemies! What do we do?", 40, 900);
+    text ("Kairon: Personally i would have kept them alive, but ok... Well let's grab the treasure chest and go home!", 40, 900);
 
-    text("Fight!", 1670, 960);
-    buttonNext a=  new buttonNext(1750, 990);
+    text("Go home!", 1665, 960);
+    stroke(255); 
+ 
+    buttonNext a=  new buttonNext(1670, 990);
     a.update(mouseX, mouseY);
     a.Display();
+
 
     for (SuperButton button : buttonListe) {
       button.Display();

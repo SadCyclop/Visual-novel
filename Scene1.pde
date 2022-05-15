@@ -35,14 +35,14 @@ public class Scene1 {
     text("The mountains!", 1665, 1000);
     stroke(255); 
     
-    text("The forest!", 90, 1000);
+    text("The forest!", 175, 1000);
     stroke(255); 
 
-    buttonNext a=  new buttonNext(1850, 1050 );
+    buttonNext a=  new buttonNext(1850, 970 );
     a.update(mouseX, mouseY);
     a.Display();
     
-    buttonNo b= new buttonNo(80, 1050);
+    buttonTen b= new buttonTen(80, 970);
     b.update(mouseX, mouseY);
     b.Display();
 

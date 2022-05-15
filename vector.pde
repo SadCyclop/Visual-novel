@@ -9,11 +9,11 @@ class Flake extends POS{
         velocity = new Vector(0, 0);
         width = (int)(60);
         height = (int)(120);
-        self = loadImage("flake.png");
+        //self = loadImage("flake.png");
     }
 
     void display(){
-        image(self, pos.x, pos.y, width, height);
+        //image(self, pos.x, pos.y, width, height);
     }
     
 
